@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ConsultingActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/topbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ACACE5"
+                android:layout_marginBottom="40dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="상담사 찾기"
+                    android:layout_gravity="center"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/suseongdotum"/>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/norikim"/>
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="80dp"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="해오름 병원"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        android:textColor="#ACACE5"
+                        android:fontFamily="@font/gmarketbold"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="노리킴 상담사"
+                        android:textSize="30sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/gmarketmedium"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:text="약력"
+                android:textSize="20sp"
+                android:textColor="#ACACE5"
+                android:fontFamily="@font/gmarketmedium"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="한국대학교 심리학과 박사"
+                android:textSize="20sp"
+                android:fontFamily="@font/gmarketmedium"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="한국대학교 심리학과 전임교수"
+                android:textSize="20sp"
+                android:fontFamily="@font/gmarketmedium"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="해오름 병원 원장"
+                android:textSize="20sp"
+                android:fontFamily="@font/gmarketmedium"/>
+
+        <Button
+                android:id="@+id/reservation_btn"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="상담 예약 문의"
+                android:fontFamily="@font/gmarketmedium"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_white_back"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/jenikim"/>
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="80dp"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="달오름 병원"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        android:textColor="#ACACE5"
+                        android:fontFamily="@font/gmarketbold"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="제니킴 상담사"
+                        android:textSize="30sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/gmarketmedium"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:text="약력"
+                android:textSize="20sp"
+                android:textColor="#ACACE5"
+                android:fontFamily="@font/gmarketmedium"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="대구대학교 심리학과 박사"
+                android:textSize="20sp"
+                android:fontFamily="@font/gmarketmedium"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="대구대학교 심리학과 전임교수"
+                android:textSize="20sp"
+                android:fontFamily="@font/gmarketmedium"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="달오름 병원 원장"
+                android:textSize="20sp"
+                android:fontFamily="@font/gmarketmedium"/>
+
+        <Button
+                android:id="@+id/reservation_btn_2"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="상담 예약 문의"
+                android:fontFamily="@font/gmarketmedium"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_white_back"/>
+
+    </LinearLayout>
+
+</ScrollView>
