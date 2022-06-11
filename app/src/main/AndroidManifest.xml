@@ -10,6 +10,9 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.Sangsun_app">
         <activity
+                android:name=".ConsultingActivity_Reservation"
+                android:exported="true"/>
+        <activity
                 android:name=".ConsultingActivity"
                 android:exported="true"/>
         <activity
