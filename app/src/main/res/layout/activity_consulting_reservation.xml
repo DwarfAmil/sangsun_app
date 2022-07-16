@@ -40,7 +40,7 @@
             android:id="@+id/editTextTextPersonName2" android:hint="상담 사유" android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp" android:layout_marginTop="10dp"/>
     <Button
-            android:text="상담 채팅"
+            android:text="상담 신청"
             android:layout_width="200dp"
             android:layout_height="wrap_content" android:id="@+id/chatting_btn" android:layout_gravity="center"
             android:textSize="20sp" android:fontFamily="@font/gmarketmedium"
